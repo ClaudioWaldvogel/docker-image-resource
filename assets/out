@@ -240,7 +240,7 @@ elif [ -n "$build" ]; then
       # docker cli does not support it yet though
       # see https://github.com/moby/moby/pull/32677
       # and https://github.com/awslabs/amazon-ecr-credential-helper/issues/9
-      docker pull "${ecr_image}"
+      #docker pull "${ecr_image}"
     done
   fi
 
